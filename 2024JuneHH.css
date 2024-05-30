@@ -1,0 +1,462 @@
+body{
+margin: 0px;
+padding: 0px;
+background-image:url("mockup-notebooks-set-stationery-work-study-blue-background-back-school_89386-2941.avif");
+
+background-repeat: repeat-y;
+background-size: cover;
+
+background-attachment: fixed;
+
+
+}
+
+#Comp{
+margin: 6% 0 0 6%;
+position: relative;
+width: 300px;
+height:350px;
+}
+
+.img
+{
+display: block;
+width:100%;
+height:350px;
+}
+
+#CD
+{
+position: absolute;
+top:0;
+bottom:0;
+right:0;
+background: linear-gradient(to left, rgba(0, 0, 255, 0.7), rgba(204, 255, 51, 0.7));
+overflow: hidden;
+width: 100%;
+height: 0;
+transition:.5s ease;
+color: white;
+text-align:center;
+opacity:0;
+}
+
+#CH{
+position: absolute;
+bottom:0;
+right:0;
+left:0;
+text-align: center;
+color:white;
+margin-bottom: 160px;
+
+}
+
+#Comp:hover #CH{
+opacity:0;
+}
+
+
+
+#Comp:hover #CD
+
+{
+height: 100%;
+opacity:1;
+}
+
+
+
+#Hindi{
+margin: 6% 0 0 6%;
+position: relative;
+width: 300px;
+height:350px;
+}
+
+.img
+{
+display: block;
+width:100%;
+height:350px;
+}
+
+#HD
+{
+position: absolute;
+top:0;
+bottom:0;
+right:0;
+background: linear-gradient(to left, rgba(0, 0, 255, 0.7), rgba(204, 255, 51, 0.7));
+overflow: hidden;
+width: 100%;
+height: 0;
+transition:.5s ease;
+color: white;
+text-align:center;
+opacity:0;
+}
+#HIH{
+position: absolute;
+bottom:0;
+right:0;
+left:0;
+text-align: center;
+color:white;
+margin-bottom: 160px;
+
+}
+
+#Hindi:hover #HIH{
+opacity:0;
+}
+
+
+
+#Hindi:hover #HD
+
+{
+height: 100%;
+opacity:1;
+}
+
+
+#English{
+margin: 6% 0 0 6%;
+position: relative;
+width: 300px;
+height:350px;
+}
+
+.img
+{
+display: block;
+width:100%;
+height:350px;
+}
+
+#ED
+{
+position: absolute;
+top:0;
+bottom:0;
+right:0;
+
+background: linear-gradient(to left, rgba(0, 0, 255, 0.7), rgba(204, 255, 51, 0.7));
+overflow: hidden;
+width: 100%;
+height: 0;
+transition:.5s ease;
+color: white;
+text-align:center;
+opacity:0;
+}
+
+#ENH{
+position: absolute;
+bottom:0;
+right:0;
+left:0;
+text-align: center;
+color:white;
+margin-bottom: 160px;
+
+}
+
+#English:hover #ENH{
+opacity:0;
+}
+
+
+#English:hover #ED
+
+{
+height: 100%;
+opacity:1;
+}
+
+
+
+#Maths{
+margin: 6% 0 0 6%;
+position: relative;
+width: 300px;
+height:350px;
+}
+
+.img
+{
+display: block;
+width:100%;
+height:350px;
+}
+
+#MD
+{
+position: absolute;
+top:0;
+bottom:0;
+right:0;
+background: linear-gradient(to left, rgba(0, 0, 255, 0.7), rgba(204, 255, 51, 0.7));
+overflow: hidden;
+width: 100%;
+height: 0;
+transition:.5s ease;
+color: white;
+text-align:center;
+opacity:0;
+}
+
+#MAH{
+position: absolute;
+bottom:0;
+right:0;
+left:0;
+text-align: center;
+color:white;
+margin-bottom: 160px;
+
+}
+
+#Maths:hover #MAH{
+opacity:0;
+}
+
+
+
+#Maths:hover #MD
+
+{
+height: 100%;
+opacity:1;
+}
+
+
+
+
+#Msc{
+margin: 6% 0 0 6%;
+position: relative;
+width: 300px;
+height:350px;
+}
+
+.img
+{
+display: block;
+width:100%;
+height:350px;
+}
+
+
+#MSD
+{
+position: absolute;
+top:0;
+bottom:0;
+right:0;
+background: linear-gradient(to left, rgba(0, 0, 255, 0.7), rgba(204, 255, 51, 0.7));
+overflow: hidden;
+width: 100%;
+height: 0;
+transition:.5s ease;
+color: white;
+text-align:center;
+opacity:0;
+}
+
+#MSH{
+position: absolute;
+bottom:0;
+right:0;
+left:0;
+text-align: center;
+color:white;
+margin-bottom: 160px;
+
+}
+
+#Msc:hover #MSH{
+opacity:0;
+}
+
+
+
+#Msc:hover #MSD
+
+{
+height: 100%;
+opacity:1;
+}
+
+
+
+
+#Gk{
+margin: 6% 0 0 6%;
+position: relative;
+width: 300px;
+height:350px;
+}
+
+.img
+{
+display: block;
+width:100%;
+height:350px;
+}
+
+#GD
+{
+position: absolute;
+top:0;
+bottom:0;
+right:0;
+background: linear-gradient(to left, rgba(0, 0, 255, 0.7), rgba(204, 255, 51, 0.7));
+overflow: hidden;
+width: 100%;
+height: 0;
+transition:.5s ease;
+color: white;
+text-align:center;
+opacity:0;
+}
+
+#GKH{
+position: absolute;
+bottom:0;
+right:0;
+left:0;
+text-align: center;
+color:white;
+margin-bottom: 160px;
+
+}
+
+#Gk:hover #GKH{
+opacity:0;
+}
+
+
+#Gk:hover #GD
+
+{
+height: 100%;
+opacity:1;
+}
+
+
+
+
+#SE{
+margin: 6% 0 0 6%;
+position: relative;
+width: 300px;
+height:350px;
+}
+
+.img
+{
+display: block;
+width:100%;
+height:350px;
+}
+
+#SD
+{
+position: absolute;
+top:0;
+bottom:0;
+right:0;
+background: linear-gradient(to left, rgba(0, 0, 255, 0.7), rgba(204, 255, 51, 0.7));
+overflow: hidden;
+width: 100%;
+height: 0;
+transition:.5s ease;
+color: white;
+text-align:center;
+opacity:0;
+}
+
+#SEH{
+position: absolute;
+bottom:0;
+right:0;
+left:0;
+text-align: center;
+color:white;
+margin-bottom: 120px;
+
+}
+
+#SE:hover #SEH{
+opacity:0;
+}
+
+#SE:hover #SD
+
+{
+height: 100%;
+opacity:1;
+}
+
+
+
+#EVS{
+margin: 6% 0 0 6%;
+position: relative;
+width: 300px;
+height:350px;
+}
+
+.img
+{
+display: block;
+width:100%;
+height:350px;
+}
+
+#EvD
+{
+position: absolute;
+top:0;
+bottom:0;
+right:0;
+background: linear-gradient(to left, rgba(0, 0, 255, 0.7), rgba(204, 255, 51, 0.7));
+overflow: hidden;
+width: 100%;
+height: 0;
+transition:.5s ease;
+color: white;
+text-align:center;
+opacity:0;
+}
+
+#EVH{
+position: absolute;
+bottom:0;
+right:0;
+left:0;
+text-align: center;
+color:white;
+margin-bottom: 160px;
+
+}
+
+#EVS:hover #EVH{
+opacity:0;
+}
+
+
+
+#EVS:hover #EvD
+
+{
+height: 100%;
+opacity:1;
+}
+
+
+
+
+
